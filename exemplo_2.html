@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="mostrar()">Clicar!</button>
+    <p id="messagem"></p>
+
+    <script>
+        function mostrar(){
+            let nome = prompt('Informe seu nome: ');
+            document.getElementById('messagem').innerText = `Olá, ${nome}. Tenha um lindo dia!` 
+        }
+    </script>
+</body>
+</html>
